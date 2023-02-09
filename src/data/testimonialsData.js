@@ -1,25 +1,25 @@
-import image1 from "../assets/t-image1.png";
-import image2 from "../assets/t-image2.jpg";
-import image3 from "../assets/t-image3.jpg";
+import pic1 from "../assets/pic1.jpg";
+import pic2 from "../assets/pic2.jpg";
+import pic3 from "../assets/pic3.jpg";
 
 export const testimonialsData = [
   {
-    image: image1,
+    image: pic1,
     review:
       "I made the right choice by choosing the Fitclub and by choosing the right plan and program I already achieved my ideal body!",
-    name: 'MATHEW HENDRICKSON',
-    status : 'ENTREPRENEUR'
+    name: 'JOEY TRIBBIANI',
+    status : 'ACTOR'
   },
   {
-    image: image2,
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsam, ab itaque nam perferendis impedit sint ',
-    name: 'JOHN KEVIN',
-    status: 'COACH'
+    image: pic3,
+    review: 'One of the best gym. Excellent personal training. Nice facilities and well maintained.',
+    name: 'CHANDLER BING',
+    status: 'DATA ANALYST'
   },
   {
-    image : image3,
-    review:' Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima aspernatur quod voluptatem',
-    name: 'FRANKLIN',
-    status: "CUSTOMER"
+    image : pic2,
+    review:'AMAZING GYM, AMAZING WORKOUTS! Such a family vibe as soon as you walk in the doors – I highly recommend checking this gym out.',
+    name: 'ROSS GELLER',
+    status: 'PALEONTOLOGIST'
   }
 ];

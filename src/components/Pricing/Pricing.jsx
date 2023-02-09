@@ -6,11 +6,11 @@
 
 const Pricing = () => {
     return (
-        <div className="pricing-container">
+        <div className="pricing-container" id="pricing">
             <div className="programs-header" style={{gap: '2rem'}}>
                 <span>READY TO START</span>
                 <span>YOUR JOURNEY</span>
-                <span>NOW WITHUS</span>
+                <span>WITH US</span>
             </div>
 
             <div className="plans">
