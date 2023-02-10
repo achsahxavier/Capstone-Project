@@ -1,8 +1,8 @@
 import React from 'react'
 import './About.css'
-import image1 from "../../assets/image1.png"
+import gympic4 from "../../assets/gympic4.jpg"
 import image2 from "../../assets/image2.png"
-import image3 from "../../assets/image3.png"
+import gympic2 from "../../assets/gympic2.jpg"
 import image4 from "../../assets/image4.png"
 import tick from '../../assets/tick.png'
 
@@ -10,9 +10,9 @@ const About = () => {
     return (
       <div className="Reasons" id="reason">
         <div className="left-r">
-          <img src={image1} alt="" />
+          <img src={gympic4} alt="" />
           <img src={image2} alt="" />
-          <img src={image3} alt="" />
+          <img src={gympic2} alt="" />
           <img src={image4} alt="" />
         </div>
         <div className="right-r">

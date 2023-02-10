@@ -1,27 +1,35 @@
-import React from 'react';
-import Programbox from './Programbox';
-import fimage1 from '../Programs/1.svg';
-import fimage2 from '../Programs/2.svg';
-import fimage3 from '../Programs/3.svg';
-import fimage4 from '../Programs/4.svg';
+import React from 'react'
+import './Programs.css'
+import {programsData} from '../../data/programsData'
+import RightArrow from '../../assets/rightArrow.png'
 
+const Programs = () => {
+    return (
+        <div className="Programs" id="programs">
+            <div className="programs-header">
+                <span className='stroke-text'>Explore our</span>
+                <span>Programs</span>
+                <span className='stroke-text'>to shape you</span>
+            </div>
 
-function Program() {
-  return (
-    <div id='features'>
-        <h1>EXPLORE OUR PROGRAMS</h1>
-        <div  className ='a-container'>
-            <Programbox image={fimage1} title="Weightlifting"></Programbox>
-            <Programbox image={fimage2} title="Cycling"></Programbox>
-            <Programbox image={fimage3} title="Muscle Training"></Programbox>
-            <Programbox image={fimage4} title="Cardio"></Programbox>
+            <div className="program-categories">
+                {programsData.map((program)=>(
+                    <div className="category">
+                        {program.image}
+                        <span>{program.heading}</span>
+                        <span>{program.details}</span>
+                        <div className="join-now">
+                            <span>Join Now</span>
+                            <img src={RightArrow} alt="" />
+                            </div>
+                        </div>
+                ))}
+            </div>
         </div>
-    </div>
-  )
+    );
 }
 
-export default Program
-
+export default Programs
 
 
 

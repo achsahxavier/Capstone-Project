@@ -4,7 +4,7 @@
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("banner2.jpg");
+    background-image: url("gympic1.jpg");
     position: relative;
     z-index: 0;
 }
@@ -62,15 +62,3 @@
     border: 2px solid #FF1414;
 }
 
-#features{
-    width:100%;
-    height:120vh;
-    box-sizing: border-box;
-    font-family:'Lato';
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 40px ;
-    background-color: #000000;
-}

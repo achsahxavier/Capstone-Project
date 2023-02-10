@@ -1,4 +1,4 @@
-/* .Programs {
+.Programs {
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -67,4 +67,4 @@
         flex-direction: column;
     }
     
-} */
+}
